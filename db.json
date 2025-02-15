@@ -1,0 +1,263 @@
+{
+  "profile": {
+    "id": 1,
+    "name": "John Doe",
+    "age": 28,
+    "location": "New York, NY",
+    "skating_since": "2022-05-10",
+    "total_distance": 1200,
+    "total_time": 100,
+    "total_sessions": 75,
+    "skating_stats": {
+      "weekly_distance": 50,
+      "weekly_time": 4,
+      "weekly_calories": 1200,
+      "monthly_distance": 200,
+      "monthly_time": 16,
+      "monthly_calories": 4800
+    },
+    "skating_goals": {
+      "weekly_distance_goal": 60,
+      "weekly_time_goal": 5,
+      "monthly_distance_goal": 250,
+      "monthly_time_goal": 20
+    },
+    "recent_activity": [
+      {
+        "date": "2025-02-14",
+        "route_name": "Park Loop",
+        "distance": 5.2,
+        "time": 30,
+        "calories_burned": 200,
+        "comments": "Great ride, felt amazing today!"
+      },
+      {
+        "date": "2025-02-12",
+        "route_name": "Beachfront Trail",
+        "distance": 10.5,
+        "time": 60,
+        "calories_burned": 500,
+        "comments": "A bit of a challenge, but great scenery!"
+      }
+    ]
+  },
+
+  "equipment": {
+    "skates": {
+      "name": "Razor X2 Inline Skates",
+      "type": "fitness",
+      "model": "X2 Sport",
+      "purchase_date": "2023-03-01",
+      "image": "https://example.com/path/to/skates_image.jpg"
+    },
+    "helmet": {
+      "name": "Helmet",
+      "model": "Triple 8 Dual Certified Helmet",
+      "image": "https://example.com/path/to/helmet_image.jpg"
+    },
+    "knee_pads": {
+      "name": "Knee Pads",
+      "model": "187 Killer Pads Pro Knee Pads",
+      "image": "https://example.com/path/to/knee_pads_image.jpg"
+    },
+    "elbow_pads": {
+      "name": "Elbow Pads",
+      "model": "Pro-Tec Street Elbow Pads",
+      "image": "https://example.com/path/to/elbow_pads_image.jpg"
+    },
+    "wrist_protectors": {
+      "name": "Wrist Protectors",
+      "model": "187 Killer Pads Wrist Guards",
+      "image": "https://example.com/path/to/wrist_protectors_image.jpg"
+    }
+  },
+
+  "routes": [
+    {
+      "id": 1,
+      "name": "Park Loop",
+      "distance": 5.2,
+      "difficulty": "Easy",
+      "description": "A scenic loop through the park with smooth paths and a few gentle turns."
+    },
+    {
+      "id": 2,
+      "name": "Beachfront Trail",
+      "distance": 0,
+      "difficulty": "TBD",
+      "description": "TBD"
+    }
+  ],
+
+  "challenges": {
+    "predefined_challenges": [
+      {
+        "id": 1,
+        "name": "10K Skating Challenge (Monthly)",
+        "goal_type": "distance",
+        "goal_value": 10000,
+        "current_value": 0,
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-28",
+        "status": "in_progress"
+      },
+      {
+        "id": 2,
+        "name": "Weekly Skating Streak",
+        "goal_type": "sessions",
+        "goal_value": 7,
+        "current_value": 7,
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-07",
+        "status": "completed"
+      }
+    ],
+    "custom_challenges": [
+      {
+        "id": 3,
+        "name": "Custom 5K Skating Challenge",
+        "goal_type": "distance",
+        "goal_value": 5000,
+        "current_value": 2000,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "in_progress"
+      },
+      {
+        "id": 3,
+        "name": "T-stop Challenge",
+        "goal_type": "counts",
+        "goal_value": 10,
+        "current_value": 3,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "failed"
+      }
+    ]
+  },
+
+  "posts": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "date": "2025-02-14",
+      "title": "Park Loop - Great day for skating!",
+      "content": "Skated the park loop today and felt great! The weather was perfect and my new skates are performing wonderfully.",
+      "tags": ["training", "race", "event"],
+      "likes": 10
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "date": "2025-02-12",
+      "title": "Beachfront Trail - Challenging but fun!",
+      "content": "The Beachfront Trail was much tougher than I expected, but the view was worth it! Managed to finish it in an hour. A bit sore, but happy with the effort.",
+      "tags": ["training", "race", "party"],
+      "likes": 5
+    }
+  ],
+
+  "events": [
+    {
+      "id": 1,
+      "name": "Roller Skating Day",
+      "date": "2025-08-25",
+      "description": "Celebrate National Roller Skating Day with skating events and community activities.",
+      "location": "Various locations",
+      "link": "https://www.rollerskatingday.com"
+    },
+    {
+      "id": 2,
+      "name": "World Roller Games",
+      "date": "2025-09-01",
+      "description": "International competition with various roller sports disciplines, including speed skating and freestyle.",
+      "location": "Barcelona, Spain",
+      "link": "https://www.worldrollergames.com"
+    },
+    {
+      "id": 3,
+      "name": "Rollercon",
+      "date": "2025-07-10",
+      "description": "An annual roller derby event held in Las Vegas, featuring competitions, workshops, and more.",
+      "location": "Las Vegas, NV, USA",
+      "link": "https://www.rollercon.com"
+    }
+  ],
+
+  "skate_info": {
+    "history": {
+      "title": "A Brief History of Roller Skating",
+      "content": "Roller skating dates back to the 18th century, with the first patent for roller skates being filed in 1760 by John Joseph Merlin. In the 1970s, roller disco became a cultural phenomenon, and roller skating has remained a popular sport and recreational activity ever since. Today, it's enjoyed for fitness, leisure, and competition, with a wide variety of skating styles and disciplines."
+    },
+    "types_of_skates": [
+      {
+        "type": "Inline Skates",
+        "description": "Inline skates, also known as rollerblades, have wheels arranged in a straight line. They are ideal for speed skating, fitness, and aggressive tricks.",
+        "image": "https://example.com/images/inline-skates.jpg"
+      },
+      {
+        "type": "Quad Skates",
+        "description": "Quad skates feature two pairs of wheels placed side by side, offering more stability, making them popular for artistic, jam, and roller derby skating.",
+        "image": "https://example.com/images/quad-skates.jpg"
+      },
+      {
+        "type": "Speed Skates",
+        "description": "Speed skates are designed specifically for competitive speed skating. They have a longer frame and a low-to-the-ground design for maximum speed.",
+        "image": "https://example.com/images/speed-skates.jpg"
+      },
+      {
+        "type": "Aggressive Skates",
+        "description": "Aggressive skates are designed for performing tricks, jumps, and grinds. They are built with reinforced boots and smaller, harder wheels.",
+        "image": "https://example.com/images/aggressive-skates.jpg"
+      }
+    ],
+    "brands": [
+      {
+        "brand": "Razor",
+        "website": "https://www.razor.com",
+        "description": "Razor is known for making high-quality inline skates, scooters, and skateboards, with an emphasis on performance and innovation."
+      },
+      {
+        "brand": "Rollerblade",
+        "website": "https://www.rollerblade.com",
+        "description": "Rollerblade is one of the leading brands in inline skating, with a wide range of skates for fitness, speed, and recreational use."
+      },
+      {
+        "brand": "Moxi Skates",
+        "website": "https://www.moxiskates.com",
+        "description": "Moxi is a brand that focuses on vibrant, colorful quad skates, blending fashion and performance for artistic and jam skaters."
+      },
+      {
+        "brand": "Bont",
+        "website": "https://www.bont.com",
+        "description": "Bont is a renowned manufacturer of custom speed skates and high-performance racing skates, known for their superior quality and craftsmanship."
+      }
+    ],
+    "day_of_skating": {
+      "date": "August 25th",
+      "description": "August 25th is celebrated as National Roller Skating Day in many countries, recognizing the history and culture of roller skating with events and community activities."
+    },
+    "external_resources": [
+      {
+        "name": "Roller Skating Tutorials - YouTube",
+        "url": "https://www.youtube.com/results?search_query=roller+skating+tutorials",
+        "description": "A collection of video tutorials on roller skating techniques, tricks, and tips for beginners and advanced skaters alike."
+      },
+      {
+        "name": "Skating Tips - Skating Fitness",
+        "url": "https://www.skatingfitness.com",
+        "description": "A resource for fitness-focused skaters, with training tips, exercises, and advice for getting the most out of your skating workouts."
+      },
+      {
+        "name": "Roller Skate Nation",
+        "url": "https://www.rollerskatenation.com",
+        "description": "An online store offering roller skates, accessories, and a community of skating enthusiasts. Great for finding all the gear you'll need!"
+      },
+      {
+        "name": "Roller Skating History - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Roller_skating",
+        "description": "A detailed history of roller skating, from its invention to its role in culture and sports today."
+      }
+    ]
+  }
+}
