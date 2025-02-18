@@ -54,6 +54,7 @@
 
     "recent_activity": [
       {
+        "id": 1,
         "date": "2025-02-14",
         "route_name": "Park Loop",
         "distance": 5.2,
@@ -62,6 +63,34 @@
         "comments": "Great ride, felt amazing today!"
       },
       {
+        "id": 2,
+        "date": "2025-02-12",
+        "route_name": "Beachfront Trail",
+        "distance": 10.5,
+        "time": 60,
+        "calories_burned": 500,
+        "comments": "A bit of a challenge, but great scenery!"
+      },
+      {
+        "id": 3,
+        "date": "2025-02-12",
+        "route_name": "Beachfront Trail",
+        "distance": 10.5,
+        "time": 60,
+        "calories_burned": 500,
+        "comments": "A bit of a challenge, but great scenery!"
+      },
+      {
+        "id": 4,
+        "date": "2025-02-12",
+        "route_name": "Beachfront Trail",
+        "distance": 10.5,
+        "time": 60,
+        "calories_burned": 500,
+        "comments": "A bit of a challenge, but great scenery!"
+      },
+      {
+        "id": 5,
         "date": "2025-02-12",
         "route_name": "Beachfront Trail",
         "distance": 10.5,
@@ -114,6 +143,26 @@
       },
       {
         "id": 5,
+        "name": "T-stop Challenge",
+        "goal_type": "counts",
+        "goal_value": 10,
+        "current_value": 3,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "failed"
+      },
+      {
+        "id": 6,
+        "name": "T-stop Challenge",
+        "goal_type": "counts",
+        "goal_value": 10,
+        "current_value": 3,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "failed"
+      },
+      {
+        "id": 7,
         "name": "T-stop Challenge",
         "goal_type": "counts",
         "goal_value": 10,
