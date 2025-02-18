@@ -71,52 +71,58 @@
       }
     ],
 
-    "challenges": {
-      "predefined_challenges": [
-        {
-          "id": 1,
-          "name": "10K Skating Challenge (Monthly)",
-          "goal_type": "distance",
-          "goal_value": 10000,
-          "current_value": 0,
-          "start_date": "2025-02-01",
-          "end_date": "2025-02-28",
-          "status": "in_progress"
-        },
-        {
-          "id": 2,
-          "name": "Weekly Skating Streak",
-          "goal_type": "sessions",
-          "goal_value": 7,
-          "current_value": 7,
-          "start_date": "2025-02-01",
-          "end_date": "2025-02-07",
-          "status": "completed"
-        }
-      ],
-      "custom_challenges": [
-        {
-          "id": 3,
-          "name": "Custom 5K Skating Challenge",
-          "goal_type": "distance",
-          "goal_value": 5000,
-          "current_value": 2000,
-          "start_date": "2025-02-10",
-          "end_date": "2025-03-10",
-          "status": "in_progress"
-        },
-        {
-          "id": 3,
-          "name": "T-stop Challenge",
-          "goal_type": "counts",
-          "goal_value": 10,
-          "current_value": 3,
-          "start_date": "2025-02-10",
-          "end_date": "2025-03-10",
-          "status": "failed"
-        }
-      ]
-    }
+    "challenges": [
+      {
+        "id": 1,
+        "name": "10K Skating Challenge (Monthly)",
+        "goal_type": "distance",
+        "goal_value": 10000,
+        "current_value": 0,
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-28",
+        "status": "in_progress"
+      },
+      {
+        "id": 2,
+        "name": "Weekly Skating Streak",
+        "goal_type": "sessions",
+        "goal_value": 7,
+        "current_value": 7,
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-07",
+        "status": "completed"
+      },
+      {
+        "id": 3,
+        "name": "Custom 5K Skating Challenge",
+        "goal_type": "distance",
+        "goal_value": 5000,
+        "current_value": 2000,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "in_progress"
+      },
+      {
+        "id": 4,
+        "name": "T-stop Challenge",
+        "goal_type": "counts",
+        "goal_value": 10,
+        "current_value": 3,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "failed"
+      },
+      {
+        "id": 5,
+        "name": "T-stop Challenge",
+        "goal_type": "counts",
+        "goal_value": 10,
+        "current_value": 3,
+        "start_date": "2025-02-10",
+        "end_date": "2025-03-10",
+        "status": "failed"
+      }
+    ]
   },
 
   "events": {
