@@ -5,7 +5,25 @@
     "name": "John Doe",
     "age": 28,
     "location": "New York, NY",
-    "skating_since": "10-05-2022",
+    "skating_since": "10-05-2022"
+  },
+  "skating_stats": {
+    "weekly_distance": 50,
+    "weekly_sessions": 5,
+    "weekly_time": 150,
+    "weekly_calories": 1200,
+    "monthly_distance": 200,
+    "monthly_sessions": 15,
+    "monthly_time": 170,
+    "monthly_calories": 4800
+  },
+  "skating_goals": {
+    "yearly_distance_goal": 15000,
+    "yearly_sessions_goal": 52,
+    "yearly_time_goal": 6000,
+    "yearly_calories_goal": 2000
+  },
+  "equipment": {
     "skates": {
       "name": "Razor X2 Inline Skates",
       "type": "fitness",
@@ -32,147 +50,130 @@
       "name": "Wrist Protectors",
       "model": "187 Killer Pads Wrist Guards",
       "image": "https://example.com/path/to/wrist_protectors_image.jpg"
-    },
-
-    "skating_stats": {
-      "weekly_distance": 50,
-      "weekly_sessions": 5,
-      "weekly_time": 150,
-      "weekly_calories": 1200,
-      "monthly_distance": 200,
-      "monthly_sessions": 15,
-      "monthly_time": 170,
-      "monthly_calories": 4800
-    },
-
-    "skating_goals": {
-      "yearly_distance_goal": 15000,
-      "yearly_sessions_goal": 52,
-      "yearly_time_goal": 6000,
-      "yearly_calories_goal": 2000
-    },
-
-    "recent_activity": [
-      {
-        "id": 1,
-        "date": "2025-02-14",
-        "route_name": "Park Loop",
-        "distance": 5.2,
-        "time": 30,
-        "calories_burned": 200,
-        "comments": "Great ride, felt amazing today!"
-      },
-      {
-        "id": 2,
-        "date": "2025-02-12",
-        "route_name": "Beachfront Trail",
-        "distance": 10.5,
-        "time": 60,
-        "calories_burned": 500,
-        "comments": "A bit of a challenge, but great scenery!"
-      },
-      {
-        "id": 3,
-        "date": "2025-02-12",
-        "route_name": "Beachfront Trail",
-        "distance": 10.5,
-        "time": 60,
-        "calories_burned": 500,
-        "comments": "A bit of a challenge, but great scenery!"
-      },
-      {
-        "id": 4,
-        "date": "2025-02-12",
-        "route_name": "Beachfront Trail",
-        "distance": 10.5,
-        "time": 60,
-        "calories_burned": 500,
-        "comments": "A bit of a challenge, but great scenery!"
-      },
-      {
-        "id": 5,
-        "date": "2025-02-12",
-        "route_name": "Beachfront Trail",
-        "distance": 10.5,
-        "time": 60,
-        "calories_burned": 500,
-        "comments": "A bit of a challenge, but great scenery!"
-      }
-    ],
-
-    "challenges": [
-      {
-        "id": 1,
-        "name": "10K Skating Challenge (Monthly)",
-        "goal_type": "distance",
-        "goal_value": 10000,
-        "current_value": 0,
-        "start_date": "2025-02-01",
-        "end_date": "2025-02-28",
-        "status": "in_progress"
-      },
-      {
-        "id": 2,
-        "name": "Weekly Skating Streak",
-        "goal_type": "sessions",
-        "goal_value": 7,
-        "current_value": 7,
-        "start_date": "2025-02-01",
-        "end_date": "2025-02-07",
-        "status": "completed"
-      },
-      {
-        "id": 3,
-        "name": "Custom 5K Skating Challenge",
-        "goal_type": "distance",
-        "goal_value": 5000,
-        "current_value": 2000,
-        "start_date": "2025-02-10",
-        "end_date": "2025-03-10",
-        "status": "in_progress"
-      },
-      {
-        "id": 4,
-        "name": "T-stop Challenge",
-        "goal_type": "counts",
-        "goal_value": 10,
-        "current_value": 3,
-        "start_date": "2025-02-10",
-        "end_date": "2025-03-10",
-        "status": "failed"
-      },
-      {
-        "id": 5,
-        "name": "T-stop Challenge",
-        "goal_type": "counts",
-        "goal_value": 10,
-        "current_value": 3,
-        "start_date": "2025-02-10",
-        "end_date": "2025-03-10",
-        "status": "failed"
-      },
-      {
-        "id": 6,
-        "name": "T-stop Challenge",
-        "goal_type": "counts",
-        "goal_value": 10,
-        "current_value": 3,
-        "start_date": "2025-02-10",
-        "end_date": "2025-03-10",
-        "status": "failed"
-      },
-      {
-        "id": 7,
-        "name": "T-stop Challenge",
-        "goal_type": "counts",
-        "goal_value": 10,
-        "current_value": 3,
-        "start_date": "2025-02-10",
-        "end_date": "2025-03-10",
-        "status": "failed"
-      }
-    ]
+    }
   },
+
+  "challenges": [
+    {
+      "id": 1,
+      "name": "10K Skating Challenge (Monthly)",
+      "goal_type": "distance",
+      "goal_value": 10000,
+      "current_value": 0,
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28",
+      "status": "in_progress"
+    },
+    {
+      "id": 2,
+      "name": "Weekly Skating Streak",
+      "goal_type": "sessions",
+      "goal_value": 7,
+      "current_value": 7,
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-07",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "name": "Custom 5K Skating Challenge",
+      "goal_type": "distance",
+      "goal_value": 5000,
+      "current_value": 2000,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-10",
+      "status": "in_progress"
+    },
+    {
+      "id": 4,
+      "name": "T-stop Challenge",
+      "goal_type": "counts",
+      "goal_value": 10,
+      "current_value": 3,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-10",
+      "status": "failed"
+    },
+    {
+      "id": 5,
+      "name": "T-stop Challenge",
+      "goal_type": "counts",
+      "goal_value": 10,
+      "current_value": 3,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-10",
+      "status": "failed"
+    },
+    {
+      "id": 6,
+      "name": "T-stop Challenge",
+      "goal_type": "counts",
+      "goal_value": 10,
+      "current_value": 3,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-10",
+      "status": "failed"
+    },
+    {
+      "id": 7,
+      "name": "T-stop Challenge",
+      "goal_type": "counts",
+      "goal_value": 10,
+      "current_value": 3,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-10",
+      "status": "failed"
+    }
+  ],
+
+  "recent_activity": [
+    {
+      "id": 1,
+      "date": "2025-02-14",
+      "route_name": "Park Loop",
+      "distance": 5.2,
+      "time": 30,
+      "calories_burned": 200,
+      "comments": "Great ride, felt amazing today!"
+    },
+    {
+      "id": 2,
+      "date": "2025-02-12",
+      "route_name": "Beachfront Trail",
+      "distance": 10.5,
+      "time": 60,
+      "calories_burned": 500,
+      "comments": "A bit of a challenge, but great scenery!"
+    },
+    {
+      "id": 3,
+      "date": "2025-02-12",
+      "route_name": "Beachfront Trail",
+      "distance": 10.5,
+      "time": 60,
+      "calories_burned": 500,
+      "comments": "A bit of a challenge, but great scenery!"
+    },
+    {
+      "id": 4,
+      "date": "2025-02-12",
+      "route_name": "Beachfront Trail",
+      "distance": 10.5,
+      "time": 60,
+      "calories_burned": 500,
+      "comments": "A bit of a challenge, but great scenery!"
+    },
+    {
+      "id": 5,
+      "date": "2025-02-12",
+      "route_name": "Beachfront Trail",
+      "distance": 10.5,
+      "time": 60,
+      "calories_burned": 500,
+      "comments": "A bit of a challenge, but great scenery!"
+    }
+  ],
+  
   "events": {
     "event": [
       {
@@ -207,7 +208,11 @@
         "date": "2025-02-14",
         "title": "Park Loop - Great day for skating!",
         "content": "Skated the park loop today and felt great! The weather was perfect and my new skates are performing wonderfully.",
-        "tags": ["training", "race", "event"],
+        "tags": [
+          "training",
+          "race",
+          "event"
+        ],
         "likes": 10
       },
       {
@@ -216,7 +221,11 @@
         "date": "2025-02-12",
         "title": "Beachfront Trail - Challenging but fun!",
         "content": "The Beachfront Trail was much tougher than I expected, but the view was worth it! Managed to finish it in an hour. A bit sore, but happy with the effort.",
-        "tags": ["training", "race", "party"],
+        "tags": [
+          "training",
+          "race",
+          "party"
+        ],
         "likes": 5
       }
     ]
