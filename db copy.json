@@ -173,6 +173,7 @@
       }
     ]
   },
+
   "events": {
     "event": [
       {
@@ -200,6 +201,7 @@
         "link": "https://www.rollercon.com"
       }
     ],
+
     "posts": [
       {
         "id": 1,
@@ -221,6 +223,7 @@
       }
     ]
   },
+
   "routes": [
     {
       "id": 1,
@@ -237,6 +240,7 @@
       "description": "TBD"
     }
   ],
+
   "skate_info": {
     "history": "Roller skating dates back to the 18th century, with the first patent for roller skates being filed in 1760 by John Joseph Merlin. In the 1970s, roller disco became a cultural phenomenon, and roller skating has remained a popular sport and recreational activity ever since. Today, it's enjoyed for fitness, leisure, and competition, with a wide variety of skating styles and disciplines.",
     "types_of_skates": [
