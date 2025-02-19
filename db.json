@@ -52,7 +52,6 @@
       "image": "https://example.com/path/to/wrist_protectors_image.jpg"
     }
   },
-
   "challenges": [
     {
       "id": 1,
@@ -125,7 +124,6 @@
       "status": "failed"
     }
   ],
-
   "recent_activity": [
     {
       "id": 1,
@@ -173,7 +171,6 @@
       "comments": "A bit of a challenge, but great scenery!"
     }
   ],
-  
   "events": {
     "event": [
       {
@@ -208,11 +205,7 @@
         "date": "2025-02-14",
         "title": "Park Loop - Great day for skating!",
         "content": "Skated the park loop today and felt great! The weather was perfect and my new skates are performing wonderfully.",
-        "tags": [
-          "training",
-          "race",
-          "event"
-        ],
+        "tags": ["training", "race", "event"],
         "likes": 10
       },
       {
@@ -221,11 +214,7 @@
         "date": "2025-02-12",
         "title": "Beachfront Trail - Challenging but fun!",
         "content": "The Beachfront Trail was much tougher than I expected, but the view was worth it! Managed to finish it in an hour. A bit sore, but happy with the effort.",
-        "tags": [
-          "training",
-          "race",
-          "party"
-        ],
+        "tags": ["training", "race", "party"],
         "likes": 5
       }
     ]
