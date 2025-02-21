@@ -1,27 +1,27 @@
 {
   "profile": {
     "id": 1,
-    "image": "https://example.com/images/profile-image.jpg",
+    "image": "https://i.pinimg.com/736x/a7/2e/fa/a72efa6f852f7b0a9fc42b52be008af7.jpg",
     "name": "John Doe",
-    "age": 28,
-    "location": "New York, NY",
-    "skating_since": "10-05-2022"
+    "age": 29,
+    "location": "Brooklyn, NY",
+    "skating_since": "03-15-2018"
   },
   "skating_stats": {
-    "weekly_distance": 50,
-    "weekly_sessions": 5,
-    "weekly_time": 150,
-    "weekly_calories": 1200,
-    "monthly_distance": 200,
-    "monthly_sessions": 15,
-    "monthly_time": 170,
-    "monthly_calories": 4800
+    "weekly_distance": 45,
+    "weekly_sessions": 4,
+    "weekly_time": 135,
+    "weekly_calories": 1050,
+    "monthly_distance": 180,
+    "monthly_sessions": 16,
+    "monthly_time": 180,
+    "monthly_calories": 4200
   },
   "skating_goals": {
-    "yearly_distance_goal": 15000,
-    "yearly_sessions_goal": 52,
-    "yearly_time_goal": 6000,
-    "yearly_calories_goal": 2000
+    "yearly_distance_goal": 12000,
+    "yearly_sessions_goal": 50,
+    "yearly_time_goal": 5500,
+    "yearly_calories_goal": 18000
   },
   "equipment": {
     "skates": {
@@ -29,17 +29,17 @@
       "type": "fitness",
       "model": "X2 Sport",
       "purchase_date": "2023-03-01",
-      "image": "https://example.com/path/to/skates_image.jpg"
+      "image": "https://i.pinimg.com/736x/ef/2b/19/ef2b1994931b36604096027e2f52f9ac.jpg"
     },
     "helmet": {
       "name": "Helmet",
       "model": "Triple 8 Dual Certified Helmet",
-      "image": "https://example.com/path/to/helmet_image.jpg"
+      "image": "https://i.pinimg.com/736x/cc/76/44/cc7644bf970cefe0e0ec23a7d2bc8f99.jpg"
     },
     "knee_pads": {
       "name": "Knee Pads",
       "model": "187 Killer Pads Pro Knee Pads",
-      "image": "https://example.com/path/to/knee_pads_image.jpg"
+      "image": "https://i.pinimg.com/736x/09/50/3a/09503a02012136d1857dd61fa69547b2.jpg"
     },
     "elbow_pads": {
       "name": "Elbow Pads",
@@ -49,7 +49,7 @@
     "wrist_protectors": {
       "name": "Wrist Protectors",
       "model": "187 Killer Pads Wrist Guards",
-      "image": "https://example.com/path/to/wrist_protectors_image.jpg"
+      "image": "https://i.pinimg.com/736x/ea/b7/e1/eab7e126b95bdb4422c7eb68c8f48d4f.jpg"
     }
   },
   "challenges": [
@@ -58,7 +58,7 @@
       "name": "10K Skating Challenge (Monthly)",
       "goal_type": "distance",
       "goal_value": 10000,
-      "current_value": 0,
+      "current_value": 6000,
       "start_date": "2025-02-01",
       "end_date": "2025-02-28",
       "status": "in_progress"
@@ -71,104 +71,86 @@
       "current_value": 7,
       "start_date": "2025-02-01",
       "end_date": "2025-02-07",
-      "status": "completed"
+      "status": "failed"
     },
     {
       "id": 3,
       "name": "Custom 5K Skating Challenge",
       "goal_type": "distance",
       "goal_value": 5000,
-      "current_value": 2000,
+      "current_value": 3500,
       "start_date": "2025-02-10",
       "end_date": "2025-03-10",
       "status": "in_progress"
     },
     {
       "id": 4,
-      "name": "T-stop Challenge",
+      "name": "T-stop Mastery Challenge",
       "goal_type": "counts",
-      "goal_value": 10,
-      "current_value": 3,
+      "goal_value": 15,
+      "current_value": 5,
       "start_date": "2025-02-10",
       "end_date": "2025-03-10",
-      "status": "failed"
+      "status": "in_progress"
     },
     {
       "id": 5,
-      "name": "T-stop Challenge",
-      "goal_type": "counts",
-      "goal_value": 10,
-      "current_value": 3,
+      "name": "Skating Speed Challenge",
+      "goal_type": "time",
+      "goal_value": "300 minutes",
+      "current_value": 150,
       "start_date": "2025-02-10",
       "end_date": "2025-03-10",
-      "status": "failed"
+      "status": "in_progress"
     },
     {
       "id": 6,
-      "name": "T-stop Challenge",
-      "goal_type": "counts",
-      "goal_value": 10,
-      "current_value": 3,
-      "start_date": "2025-02-10",
-      "end_date": "2025-03-10",
-      "status": "failed"
+      "name": "Distance Record Challenge",
+      "goal_type": "distance",
+      "goal_value": 15000,
+      "current_value": 10000,
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "status": "in_progress"
     },
     {
       "id": 7,
-      "name": "T-stop Challenge",
-      "goal_type": "counts",
-      "goal_value": 10,
-      "current_value": 3,
-      "start_date": "2025-02-10",
-      "end_date": "2025-03-10",
-      "status": "failed"
+      "name": "Rolling Streak Challenge",
+      "goal_type": "sessions",
+      "goal_value": 30,
+      "current_value": 18,
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28",
+      "status": "in_progress"
     }
   ],
   "recent_activity": [
     {
       "id": 1,
-      "date": "2025-02-14",
+      "date": "2025-02-19",
       "route_name": "Park Loop",
       "distance": 5.2,
       "time": 30,
       "calories_burned": 200,
-      "comments": "Great ride, felt amazing today!"
+      "comments": "Feeling strong today, really enjoyed the ride!"
     },
     {
       "id": 2,
-      "date": "2025-02-12",
+      "date": "2025-02-17",
       "route_name": "Beachfront Trail",
       "distance": 10.5,
       "time": 60,
       "calories_burned": 500,
-      "comments": "A bit of a challenge, but great scenery!"
+      "comments": "Windy day but amazing views along the coastline."
     },
     {
       "id": 3,
-      "date": "2025-02-12",
-      "route_name": "Beachfront Trail",
-      "distance": 10.5,
-      "time": 60,
-      "calories_burned": 500,
-      "comments": "A bit of a challenge, but great scenery!"
-    },
-    {
-      "id": 4,
-      "date": "2025-02-12",
-      "route_name": "Beachfront Trail",
-      "distance": 10.5,
-      "time": 60,
-      "calories_burned": 500,
-      "comments": "A bit of a challenge, but great scenery!"
-    },
-    {
-      "id": 5,
-      "date": "2025-02-12",
-      "route_name": "Beachfront Trail",
-      "distance": 10.5,
-      "time": 60,
-      "calories_burned": 500,
-      "comments": "A bit of a challenge, but great scenery!"
+      "date": "2025-02-14",
+      "route_name": "Downtown Loop",
+      "distance": 8.0,
+      "time": 45,
+      "calories_burned": 350,
+      "comments": "Nice pace, felt great to get out there!"
     }
   ],
   "events": [
@@ -177,21 +159,21 @@
       "name": "Roller Skating Day",
       "date": "2025-08-25",
       "time": "10:00",
-      "text": "Celebrate National Roller Skating Day with skating events and community activities."
+      "text": "Celebrate National Roller Skating Day with skating events and community activities. Everyone's invited!"
     },
     {
       "id": 2,
       "name": "World Roller Games",
       "date": "2025-09-01",
       "time": "9:00",
-      "text": "International competition with various roller sports disciplines, including speed skating and freestyle."
+      "text": "Join the excitement at the World Roller Games! Skating competitions for all skill levels."
     },
     {
       "id": 3,
       "name": "Rollercon",
       "date": "2025-07-10",
       "time": "20:00",
-      "text": "An annual roller derby event held in Las Vegas, featuring competitions, workshops, and more."
+      "text": "Rollercon is back! A weekend of roller derby, skating workshops, and live entertainment in Las Vegas."
     }
   ]
 }
